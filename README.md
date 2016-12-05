@@ -1,3 +1,6 @@
+[![license](https://img.shields.io/github/license/toddbluhm/photo-exif-extractor.svg)](https://github.com/toddbluhm/photo-exif-extractor/blob/master/LICENSE)
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 # Photo-Exif-Extractor
 
 A simple utility script for downloading, extracting, and storing image file exif image attributes in a data store.
