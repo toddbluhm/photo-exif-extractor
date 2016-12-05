@@ -1,0 +1,29 @@
+{
+  "name": "photo-exif-extractor",
+  "version": "1.0.0",
+  "description": "Extracts the exif data from an s3 bucket of images into a data store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard --fix",
+    "start": "node ."
+  },
+  "keywords": [
+    "exif",
+    "extractor",
+    "s3",
+    "datastore"
+  ],
+  "author": "Todd Bluhm",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "exif": "^0.6.0",
+    "highland": "^2.10.1",
+    "mongodb": "^2.2.12",
+    "needle": "^1.4.2"
+  }
+}
